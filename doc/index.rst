@@ -43,7 +43,7 @@ option,
 .. code-block:: python
 
    javadoc_url_map = {
-       'com.netflix.curator' : ('http://netflix.github.com/curator/doc', 'javadoc'),
+       'com.netflix.curator' : ('https://netflix.github.com/curator/doc', 'javadoc'),
        'org.springframework' : ('http://static.springsource.org/spring/docs/3.1.x/javadoc-api/', 'javadoc'),
        'org.springframework.data.redis' : ('http://static.springsource.org/spring-data/data-redis/docs/current/api/', 'javadoc')
    }
@@ -64,7 +64,7 @@ source, and ``doc_type`` is one of,
 
 When comparing referenced types to the list of available packages the longest
 match will be used. Entries for ``java``, ``javax``, ``org.xml``, and
-``org.w3c`` packages pointing to http://docs.oracle.com/javase/8/docs/api are
+``org.w3c`` packages pointing to https://docs.oracle.com/javase/8/docs/api are
 included automatically and do not need to be defined explicitly.
 
 .. _JDK-8144118: https://bugs.openjdk.java.net/browse/JDK-8144118
